@@ -1,24 +1,6 @@
 // Logistic Regression
 
-// Para entrenar el modelo
-// 1. Feature extraction
-//      1.1. Preprocessing (Using tokenizers crates) 🦧
-//          1.1.2 Eliminar stopwords, puntuación, urls, almohadillas...
-//          1.1.3 Stemming y poner todo en minúsculas
-//      1.2. Generar el diccionario
-//          1.2.1 Diccionario de palabras
-//          1.2.2 Diccionario de frecuencia de positivos y negativos
-//      1.3 Crear los Xm y generar su matriz 🦧 
-// 2. Entrenar el modelo 🦧
-//      2.1 Implementar función sigmoid (o de predicción) h(X, theta)
-//      2.2 Implementar función coste J(theta)
-//      2.3 Implementar convergencia de theta (theta(j)-alpha*d(J(theta))/d(theta(j)))
-//      2.3 Comprobar el resultado con la función coste
 
-// Para realizar los test
-
-// Naive-Bayes Approach
-// Vector Spaces
 extern crate rust_tokenizers;
 extern crate rust_stemmers;
 extern crate rand;
